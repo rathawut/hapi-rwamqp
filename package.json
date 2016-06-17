@@ -1,0 +1,27 @@
+{
+  "name": "hapi-rwamqp",
+  "version": "1.0.0",
+  "description": "a Hapi module for storing amqp connection, channel, and send function (to send message to the specific default queue) by Rathawut",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rathawut-l/hapi-rwamqp.git"
+  },
+  "keywords": [
+    "hapi",
+    "amqp",
+    "rabbitmq"
+  ],
+  "author": "Rathawut Lertsuksakda",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Rathawut-l/hapi-rwamqp/issues"
+  },
+  "homepage": "https://github.com/Rathawut-l/hapi-rwamqp#readme",
+  "dependencies": {
+    "async": "^2.0.0-rc.6"
+  }
+}
